@@ -1,0 +1,1 @@
+Object.entries||(Object.entries=function(e){return Array.prototype.map.call(Object.keys(e),function(t,r){var n=[];return n.push(t),n.splice(++r,0,e[t]),n})}),Object.values||(Object.values=function(e){return Array.prototype.map.call(Object.keys(e),function(t,r){return e[t]})});

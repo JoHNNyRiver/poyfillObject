@@ -1,0 +1,38 @@
+{
+  "name": "polyfillobject",
+  "version": "1.0.0",
+  "description": "Simple polyfill of Object.entries and Object.values",
+  "main": "polyfill.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoHNNyRiver/polifyllObject.git"
+  },
+  "keywords": [
+    "Polyfill",
+    "Object.entries",
+    "Object.values"
+  ],
+  "author": "João Ribeiro <jlribeiroaugusto@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JoHNNyRiver/polifyllObject/issues"
+  },
+  "homepage": "https://github.com/JoHNNyRiver/polifyllObject#readme",
+  "dependencies": {
+    "eslint": "^4.13.1",
+    "gitignore": "^0.6.0"
+  },
+  "devDependencies": {
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "gulp": "^3.9.1",
+    "gulp-uglify": "^3.0.0",
+    "pump": "^2.0.0"
+  }
+}
